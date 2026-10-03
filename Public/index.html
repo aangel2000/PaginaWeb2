@@ -31,10 +31,10 @@
     <main>
         <h2>Iniciar sesión</h2>
 
-        <form>
+        <form id="loginForm">
             <div class="cont-main">
-                <label clas="centrado" for="username">Username:</label>
-                <input type="text" id="username" name="username">
+                <label clas="centrado" for="email">Email:</label>
+                <input type="text" id="email" name="email">
             </div>
 
             <br />
@@ -48,7 +48,11 @@
 
             <button type="submit" class="btn btn-primary"> Iniciar sesión</button>
         </form>
+
+        <div id="mensaje" role="alert"></div>
     </main>
+
+    <script src="login.js"></script>
 
 </body>
 
